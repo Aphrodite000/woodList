@@ -14,7 +14,7 @@ public class Solution {
                 //插入的时候直接把最大的放到最后一个
                 for(;j<list.size();j++){
                     if(list.get(j)>=L){
-                        list.add(j,L);
+                        list.add(j,L);//此处插入元素，其他往后移动
                         break;
                     }
                 }//说明前面的元素都比L小，直接尾插就行
